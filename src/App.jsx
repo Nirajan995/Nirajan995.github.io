@@ -8,13 +8,12 @@ import {
   Tech,
   Projects,
 } from "./components";
-import One from "./components/Project/One";
 import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0">
+      <div className="relative z-0 overflow-hidden">
         <div>
           <Navbar />
           <Hero />
