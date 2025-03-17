@@ -143,14 +143,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Software Developer",
+    title: "Senior Software Engineer",
     company_name: "PortPro.",
     icon: portpro,
     iconBg: "#f2fcfc",
     date: "Feb 2025 - Present",
   },
   {
-    title: "Full Stack Developer",
+    title: "Developer II",
     company_name: "BeyondID.",
     icon: beyondid,
     iconBg: "#f2fcfc",
