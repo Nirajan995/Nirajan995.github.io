@@ -23,6 +23,7 @@ import uiDesign from './icons/ui-design.png'
 import coding from './icons/coding.png'
 import devops from './icons/devops.png'
 import database from './icons/database.png'
+import portpro from './icons/portpro.png'
 import application from './icons/application.png'
 
 import downloadHover from "./icons/downloadHover.png";
@@ -89,6 +90,7 @@ export {
   infodevelopers,
   okta,
   auth0,
+  portpro,
   encoders,
   Spiralogics,
   discussion,

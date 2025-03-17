@@ -24,6 +24,7 @@ import {
   thirdParty,
   application,
   uiDesign,
+  portpro,
   coding,
   devops,
   database,
@@ -142,11 +143,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Software Developer",
+    company_name: "PortPro.",
+    icon: portpro,
+    iconBg: "#f2fcfc",
+    date: "Feb 2025 - Present",
+  },
+  {
     title: "Full Stack Developer",
     company_name: "BeyondID.",
     icon: beyondid,
     iconBg: "#f2fcfc",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Feb 2025",
   },
   {
     title: "Software Engineer",
