@@ -215,7 +215,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", ".nojekyll"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
