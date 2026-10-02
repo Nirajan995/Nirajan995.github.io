@@ -27,6 +27,6 @@ latest_posts:
 
 I am a Senior Software Engineer at [PortPro](https://portpro.io), with research interests in **machine learning robustness and medical AI** — domain generalization, test-time adaptation, federated learning, and parameter-efficient fine-tuning for real-world clinical deployment.
 
-My recent work studies how vision-language and foundation models fail to generalize across skin tones in dermatology AI, and how federated, parameter-efficient adaptation (LoRA) can align models like BiomedCLIP across international chest X-ray cohorts without centralizing patient data. I'm also working on test-time adaptation methods that resist prediction collapse under distribution shift, with a paper on this accepted at a NeurIPS 2026 workshop.
+My recent work studies how vision-language and foundation models fail to generalize across skin tones in dermatology AI, and how federated, parameter-efficient adaptation (LoRA) can align models like BiomedCLIP across international chest X-ray cohorts without centralizing patient data. I'm also working on test-time adaptation methods that resist prediction collapse under distribution shift.
 
 Before this, I spent several years as a full-stack/backend engineer building production systems — identity verification workflows, EDI integrations, and large-scale data migrations — at [PortPro](https://portpro.io), [BeyondID](https://beyondid.com), and [Spiralogics](https://spiralogics.com).
