@@ -1,0 +1,482 @@
+%------------------------
+% PhD Academic CV
+% Nirajan Kunwor
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+%-------------------------
+% Page setup
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Section formatting
+
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumePublication}[4]{
+  \vspace{-1pt}\item
+    \small{
+      \textbf{#1}\\
+      \textit{#2}\\
+      #3\\
+      #4
+    }
+    \vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[2]{
+  \item\small{\textbf{#1}: #2 \vspace{-2pt}}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{
+  \begin{itemize}[leftmargin=*, label={}]
+}
+
+\newcommand{\resumeSubHeadingListEnd}{
+  \end{itemize}
+}
+
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}[leftmargin=15pt]
+}
+
+\newcommand{\resumeItemListEnd}{
+  \end{itemize}\vspace{-5pt}
+}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+  \textbf{\LARGE Nirajan Kunwor}
+  &
+  \href{mailto:nirajankunwor604@gmail.com}
+  {nirajankunwor604@gmail.com}
+  \\
+
+  \textit{Senior Software Engineer}
+  &
+  \href{https://github.com/Nirajan995}
+  {github.com/Nirajan995}
+  \\
+
+  \href{https://nirajankunwor.com.np/}
+  {nirajankunwor.com.np}
+  &
+  +977-9843473791
+
+\end{tabular*}
+
+\vspace{3pt}
+
+
+%-----------RESEARCH INTERESTS-----------------
+
+\section{Research Interests}
+
+\small{
+Machine Learning, Medical AI, Computer Vision, Foundation Models,
+Domain Generalization, Test-Time Adaptation, Federated Learning,
+Parameter-Efficient Fine-Tuning, Robust and Equitable AI
+}
+
+\vspace{3pt}
+
+
+%-----------PUBLICATIONS-----------------
+
+\section{Publications}
+
+\resumeSubHeadingListStart
+
+\resumePublication
+{\textbf{Nirajan Kunwor}, Sanjaya Poudel, Quoc-Huy Trinh, Jahidul Arafat, Sunil Kumar Gaire}
+{Disease Burden over Skin Tone: Decomposing the Dermatology-AI Generalization Gap}
+{Accepted at MIRASOL Workshop, MICCAI 2026}
+{\href{https://arxiv.org/abs/2609.02111}{arXiv:2609.02111}}
+
+\vspace{8pt}
+
+\resumePublication
+{Sanjaya Poudel, \textbf{Nirajan Kunwor}, Manish Dhakal, Debesh Jha, Sunil Kumar Gaire}
+{Federated LoRA Adaptation of BiomedCLIP Across Four International Chest X-Ray Cohorts}
+{Accepted at DeCaF Workshop, MICCAI 2026}
+{\href{https://arxiv.org/abs/2609.02101}{arXiv:2609.02101}}
+
+\resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+
+%-----------RESEARCH EXPERIENCE-----------------
+
+\section{Research Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{AI/ML Research}{}
+{Independent / Collaborative Research}{2025 -- Present}
+
+\resumeItemListStart
+
+\resumeItem{
+Conduct research on machine learning robustness, medical computer vision,
+foundation models, federated learning, and adaptation under distribution shift.
+}
+
+\resumeItem{
+Investigated the role of skin-tone representation and disease-distribution
+shift in the generalization of dermatology AI models across diverse populations.
+}
+
+\resumeItem{
+Studied federated parameter-efficient adaptation of BiomedCLIP across
+multiple international chest X-ray cohorts, including LoRA-based adaptation
+and federated aggregation strategies.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{1pt}
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------------
+
+\section{Professional Experience}
+
+\resumeSubHeadingListStart
+
+
+%---------- PORTPRO ----------
+
+\resumeSubheading
+{PortPro}{}
+{Senior Software Engineer (Full-time)}{Feb 2025 -- Present}
+
+\resumeItemListStart
+
+\resumeItem{
+Architect and implement backend services and APIs supporting real-time
+data processing and integrations across external logistics platforms.
+}
+
+\resumeItem{
+Developed an AI-powered browser-automation system integrating PortPro's
+TMS with external carrier and customer portals using Browserbase and
+automated workflows.
+}
+
+\resumeItem{
+Designed standardized web-automation pipelines for extracting data from
+multiple port systems using Node.js, Puppeteer, AWS Lambda, MongoDB,
+and scheduled execution.
+}
+
+\resumeItem{
+Implemented automated generation and outbound transmission of EDI 990,
+214, and 210 transactions to external trading partners.
+}
+
+\resumeItem{
+Led a large-scale MongoDB-to-PostgreSQL data migration using Hevo Data.
+}
+
+\resumeItemListEnd
+
+
+%---------- BEYONDID ----------
+
+\vspace{8pt}
+
+\resumeSubheading
+{BeyondID}{}
+{Senior Software Engineer (Full-time)}{Jan 2023 -- Feb 2025}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed identity-verification workflows integrating Auth0 and Plaid
+ID Proofing for fraud-prevention applications.
+}
+
+\resumeItem{
+Built real-time data synchronization between Drata and Fieldguide,
+supporting automated compliance workflows.
+}
+
+\resumeItem{
+Integrated Okta FGA, JAMF, and CrowdStrike into the BeyondID Integration
+Network to expand security and identity-management capabilities.
+}
+
+\resumeItem{
+Developed polling-based data pipelines for the Experian Dashboard to
+provide near-real-time insights within Okta.
+}
+
+\resumeItemListEnd
+
+
+%---------- VRIT ----------
+
+\vspace{8pt}
+
+\resumeSubheading
+{Vrit Technologies}{}
+{MERN Instructor (Part-time)}{Mar 2023 -- Feb 2024}
+
+\resumeItemListStart
+
+\resumeItem{
+Taught HTML5, CSS3, JavaScript, ReactJS, NodeJS, and MongoDB through
+hands-on software development instruction.
+}
+
+\resumeItemListEnd
+
+
+%---------- SPIRALOGICS ----------
+
+\vspace{8pt}
+
+\resumeSubheading
+{Spiralogics International}{}
+{Software Engineer (Full-time)}{Feb 2022 -- Jan 2023}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed and maintained client-side and server-side components for
+multiple software applications.
+}
+
+\resumeItem{
+Built deployable solutions using Docker and executable-based
+deployment workflows.
+}
+
+\resumeItem{
+Designed applications using both relational and non-relational
+database systems based on project requirements.
+}
+
+\resumeItem{
+Developed client-side web applications using AngularJS.
+}
+
+\resumeItemListEnd
+
+
+%---------- ENCODERS ----------
+
+\vspace{8pt}
+
+\resumeSubheading
+{Encoders Inc.}{}
+{MERN Stack Developer (Full-time)}{Feb 2021 -- Jan 2022}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed and maintained full-stack web applications using the MERN
+stack (MongoDB, Express, React, Node.js).
+}
+
+\resumeItem{
+Built and integrated RESTful APIs to support front-end application
+features and third-party services.
+}
+
+\resumeItemListEnd
+
+
+%---------- MAVEN ----------
+
+\vspace{8pt}
+
+\resumeSubheading
+{Maven Solutions}{}
+{MERN Intern (Full-time)}{Feb 2020 -- Jan 2021}
+
+\resumeItemListStart
+
+\resumeItem{
+Built client-side user interfaces for an e-commerce application using ReactJS.
+}
+
+\resumeItem{
+Developed maintainable backend services for an artist-booking application.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+
+\resumeSubHeadingListStart
+
+
+\resumeSubheading
+{Lincoln International College}
+{Kathmandu, Nepal}
+{Master of Computer Science}
+{2023 -- 2025}
+
+\resumeItemListStart
+
+\resumeItem{
+Relevant coursework: Operating Systems, Data Structures and Algorithms,
+Artificial Intelligence, Machine Learning, Computer Networking, Databases.
+}
+
+\resumeItemListEnd
+
+
+\vspace{8pt}
+
+\resumeSubheading
+{Advanced College of Engineering and Management}
+{Kathmandu, Nepal}
+{Bachelor of Computer Engineering}
+{2017 -- 2021}
+
+\resumeItemListStart
+
+\resumeItem{
+Relevant coursework: Operating Systems, Data Structures and Algorithms,
+Artificial Intelligence, Machine Learning, Computer Networking, Databases.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+
+%-----------TECHNICAL SKILLS-----------------
+
+\section{Technical Skills}
+
+\resumeSubHeadingListStart
+
+\resumeSubItem{Programming}
+{Python, JavaScript, TypeScript, SQL}
+
+\resumeSubItem{Machine Learning / AI}
+{Computer Vision, Medical AI, Federated Learning, Foundation Models,
+LoRA, Parameter-Efficient Fine-Tuning, Test-Time Adaptation}
+
+\resumeSubItem{Frameworks}
+{Node.js, NestJS, React, Angular, Next.js}
+
+\resumeSubItem{Databases}
+{PostgreSQL, MongoDB, MySQL, Redis}
+
+\resumeSubItem{Cloud / Infrastructure}
+{AWS, Docker, AWS Lambda, RabbitMQ}
+
+\resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+
+%-----------TEACHING & SERVICE-----------------
+
+\section{Teaching \& Service}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Programming for Kids}
+{Kathmandu, Nepal}
+{Volunteer Instructor}{Feb 2022}
+
+\resumeItemListStart
+
+\resumeItem{
+Taught introductory web programming to students from Dolpa as part
+of a community education initiative with Spiralogics team members.
+}
+
+\resumeItemListEnd
+
+
+\vspace{8pt}
+
+\resumeSubheading
+{Workshop at Srijana -- The Innovation}
+{Kathmandu, Nepal}
+{Organizer \& Instructor}{Jan 2018}
+
+\resumeItemListStart
+
+\resumeItem{
+Organized and delivered technical workshops as part of an annual
+college innovation event.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+\end{document}
